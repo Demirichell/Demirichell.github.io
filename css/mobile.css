@@ -3,3 +3,7 @@
         background-color: rgba(54, 57, 62, 1);
     }
 }
+
+body {
+    background-image: url("/img/Backgroundimg.png");
+}
