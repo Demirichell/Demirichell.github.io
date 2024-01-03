@@ -2,8 +2,16 @@
     body {
         background-color: rgba(54, 57, 62, 1);
     }
+    body {
+        background-image: url("/img/Backgroundimg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        
+      
+        
+        
 }
 
-body {
-    background-image: url("/img/Backgroundimg.png");
-}
