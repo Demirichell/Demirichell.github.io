@@ -1,4 +1,62 @@
-@font-face {
-    font-family: custom-font;
-    src: url(MateSC-Regular.ttf);
+@media only screen and (max-width: 600px) {
+    body {
+
+        background-image: url("/img/Backgroundimg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        backdrop-filter: blur(8px)
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: custom-font;
+
+    }
+
+    @font-face {
+        font-family: custom-font;
+        src: url(/MateSC-Regular.ttf);
+    }
+
+
+
+    h1 {
+        font-size: 64px;
+        color: aliceblue;
+        font-weight: 400;
+    }
+
+    p {
+        color: aliceblue;
+    }
+
+    h3 {
+        color: aliceblue;
+        font-size: 24px;
+
+    }
+
+    .main-text {
+        color: #7289DA;
+
+
+
+    }
+
+    h2 {
+        color: aliceblue;
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+    h4 {
+        color: #7289DA;
+        font-size: 36px;
+        letter-spacing: 1px;
+
+    }
+
 }
