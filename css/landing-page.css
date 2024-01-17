@@ -57,8 +57,8 @@ body {
 .skills-content {
   width: 30%;
   flex-wrap: wrap;
-  height: 900px;
-  min-width: 200px;
+  min-height: 900px;
+ 
   border-style: solid;
   border-color: rgb(127, 255, 148);
 
@@ -189,8 +189,8 @@ nav {
 }
 
 .line-placement-right {
-  /* border-style: solid; */
-  /* border-color: rgb(127, 136, 255); */
+   border-style: solid; 
+  border-color: rgb(127, 136, 255); 
   width: 80%;
   height: fit-content;
 }
