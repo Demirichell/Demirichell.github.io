@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("/img/Backgroundimg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(8px);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: custom-font;
+  }
+
+  @font-face {
+    font-family: custom-font;
+    src: url(/MateSC-Regular.ttf);
+  }
+  #landing-page {
+    width: 100%;
+    display: flex;
+  }
+  .text-placement {
+    border-style: solid;
+    border-color: rgb(255, 127, 127);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10px;
+  }
+  #software-skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+  .skills-responsive-placement {
+    width: 100%; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-style: solid;
+    border-color: rgb(255, 127, 127);
+  }
+  .skills-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    
+    border-style: solid;
+    border-color: rgb(127, 255, 148);
+  
+  }
+  .text-white-left{
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+  }
+}
