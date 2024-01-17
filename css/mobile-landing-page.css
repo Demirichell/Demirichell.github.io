@@ -18,18 +18,23 @@
     font-family: custom-font;
     src: url(/MateSC-Regular.ttf);
   }
+
   #landing-page {
     width: 100%;
     display: flex;
+
   }
+
   .text-placement {
     border-style: solid;
     border-color: rgb(255, 127, 127);
+    height: 30px;
     display: flex;
     flex-direction: column;
     width: 100%;
     padding-left: 10px;
   }
+
   #software-skills {
     width: 100%;
     display: flex;
@@ -37,26 +42,158 @@
     flex-wrap: wrap;
     height: fit-content;
   }
+
   .skills-responsive-placement {
-    width: 100%; 
+    width: 100%;
     flex-wrap: wrap;
+    display: flex;
     justify-content: flex-start;
     border-style: solid;
     border-color: rgb(255, 127, 127);
+    margin-top: 50px;
   }
+
   .skills-content {
     display: flex;
-    justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
     height: 900px;
-    
     border-style: solid;
     border-color: rgb(127, 255, 148);
-  
+
   }
-  .text-white-left{
+
+  .software-skills-card-placement {
+    display: flex;
+    width: 100%;
+    /* border-style: solid; */
+    /* border-color: rgb(127, 136, 255); */
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .text-white-left {
     width: 100%;
     display: flex;
     font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  #aboutme {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+  }
+
+  .aboutme-placement {
+
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(127, 255, 148);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+  .aboutme-left-placement {
+
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(255, 127, 127);
+  }
+
+  .aboutme-right-placement {
+
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(255, 127, 127);
+  }
+
+  .aboutme-bottom-placement {
+    width: 100%;
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 127, 127);
+  }
+
+  nav {
+    background-color: #36393E;
+    height: 40px;
+  }
+
+  .cards {
+    background: #36393E;
+    width: 30%;
+    height: 93px;
+    border-radius: 4px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .front-end-text-placement {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+  }
+
+  .top-cards {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 127, 127);
+  }
+
+  .bottom-cards {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 127, 127);
+  }
+
+  .line-list-placement {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* border-style: solid; */
+    /* border-color: rgb(127, 255, 148); */
+  }
+
+  .line-placement-left {
+    /* border-style: solid; */
+    width: 5%;
+    /* border-color: rgb(127, 136, 255); */
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+
+  .line-placement-right {
+    /* border-style: solid; */
+    /* border-color: rgb(127, 136, 255); */
+    width: 80%;
+    height: fit-content;
+  }
+
+  .bol {
+    width: 9px;
+    height: 8px;
+  }
+
+  .line {
+    width: 1px;
+    height: 80px;
   }
 }

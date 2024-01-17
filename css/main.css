@@ -29,15 +29,13 @@
         font-weight: 400;
     }
 
-    p {
-        color: aliceblue;
-    }
+
 
     h3 {
-       
-    color: aliceblue;
-    font-weight: 400;
-    flex-grow: inherit;
+
+        color: aliceblue;
+        font-weight: 400;
+        flex-grow: inherit;
 
     }
 
@@ -74,6 +72,14 @@
 
     }
 
+    p {
+        font-size: 2vw;
+        color: aliceblue;
+        flex-grow: inherit;
+
+
+    }
+
 }
 
 * {
@@ -97,12 +103,10 @@ h1 {
     flex-grow: inherit;
 }
 
-p {
-    color: aliceblue;
-}
+
 
 h3 {
-   
+
     font-weight: 400;
     flex-grow: inherit;
 
@@ -112,6 +116,13 @@ h3 {
     color: #7289DA;
 
 
+
+}
+
+p {
+    font-size: 2vw;
+    color: aliceblue;
+    flex-grow: inherit;
 
 }
 
@@ -128,7 +139,7 @@ h4 {
 
 }
 
-nav{
+nav {
     background-color: #36393E;
     height: 40px;
 }
