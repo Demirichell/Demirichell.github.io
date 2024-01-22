@@ -1,11 +1,11 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-image: url("/img/Backgroundimg.png");
+    background-image: url("/img/22_01_2024\ 11_47_40.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
   }
 
   * {
@@ -18,10 +18,12 @@
     font-family: custom-font;
     src: url(/MateSC-Regular.ttf);
   }
+
   #landing-page {
     width: 100%;
     display: flex;
   }
+
   .text-placement {
     border-style: solid;
     border-color: rgb(255, 127, 127);
@@ -30,6 +32,7 @@
     width: 100%;
     padding-left: 10px;
   }
+
   #software-skills {
     width: 100%;
     display: flex;
@@ -37,13 +40,15 @@
     flex-wrap: wrap;
     height: fit-content;
   }
+
   .skills-responsive-placement {
-    width: 100%; 
+    width: 100%;
     flex-wrap: wrap;
     justify-content: flex-start;
     border-style: solid;
     border-color: rgb(255, 127, 127);
   }
+
   .skills-content {
     display: flex;
     justify-content: center;
@@ -51,49 +56,61 @@
     min-height: 900px;
     border-style: solid;
     border-color: rgb(127, 255, 148);
-  
+
   }
-  .text-white-left{
+
+  .text-white-left {
     color: aliceblue;
     width: 100%;
     display: flex;
     font-size: 30px;
   }
+
   .text-purple-center {
-  width: 100%;
-  display: flex;
-  font-size: 3cqw;
-  justify-content: center;
-  color: rgb(137, 73, 255);
-}
+    width: 100%;
+    display: flex;
+    font-size: 3cqw;
+    justify-content: center;
+    color: rgb(137, 73, 255);
+  }
 
-#aboutme {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
+  #aboutme {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
 
-.aboutme-placement {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  border-style: solid;
-  border-color: rgb(127, 255, 148);
-  height: fit-content;
+  .aboutme-placement {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-style: solid;
+    border-color: rgb(127, 255, 148);
+    height: fit-content;
 
-}
+  }
 
-.aboutme-left-placement {
+  .aboutme-left-placement {
+    display: flex;
+    width: 100%;
+    border-style: solid;
+    height: fit-content;
+    justify-content: center;
+    border-color: rgb(255, 127, 127);
+  }
 
-  width: 30%;
-  border-style: solid;
-  height: 900px;
-  border-color: rgb(255, 127, 127);
+  img {
+    width: 50%;
+    height: 50%;
+    min-width: 200px;
+    margin: 20px;
+  }
 }
 
 .aboutme-right-placement {
   display: flex;
-  width: 70%;
+  width: 100%;
   border-style: solid;
   border-color: rgb(255, 127, 127);
 }
@@ -103,6 +120,12 @@
   display: flex;
   border-style: solid;
   border-color: rgb(255, 127, 127);
+  flex-wrap: wrap;
+}
+
+.aboutme-p {
+  display: hidden;
+  border-color: #7289DA;
 }
 
 nav {
@@ -164,33 +187,73 @@ nav {
 }
 
 .line-placement-right {
-  border-style: solid; 
-   border-color: rgb(127, 136, 255); 
+  border-style: solid;
+  border-color: rgb(127, 136, 255);
   width: 70%;
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
 }
 
-.bol {
-  width: 2%;
+
+
+.skills-text-placement {
+  width: 100%;
+  border-style: solid;
+  border-color: rgb(127, 136, 255);
 }
 
-.line {
-  width: 2%;
-}
-.skills-text-placement{
-  width: 100%;
-  border-style: solid; 
-   border-color: rgb(127, 136, 255); 
-}
-.skills-container-text-placement{
+.skills-container-text-placement {
   width: 100%;
   display: flex;
   height: 40%;
-  border-style: solid; 
-  border-color: rgb(241, 63, 8); 
+  border-style: solid;
+  border-color: rgb(241, 63, 8);
   flex-wrap: wrap;
 
 }
+
+.project-placement {
+  width: 100%;
+  border-style: solid;
+  border-color: rgb(127, 136, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-element {
+  border-style: solid;
+  border-color: rgb(127, 136, 255);
+  width: 363px;
+  height: 161px;
+  display: flex;
+  border-radius: 10px;
+  background: rgba(114, 137, 218, 0.22);
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 167px;
+  height: 47px;
+  border-radius: 9px;
+  background-color: #7289DA;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  margin: 15px;
+  margin-left: 160px;
+  color: aliceblue;
+
+}
+
+.button-placement {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+
 }
