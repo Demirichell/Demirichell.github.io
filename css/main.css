@@ -79,6 +79,10 @@
 
 
     }
+    p2{
+        font-size: 1vw;
+        color: aliceblue;
+    }
 
 }
 
@@ -124,6 +128,10 @@ p {
     color: aliceblue;
     flex-grow: inherit;
 
+}
+p2{
+    font-size: 1vw;
+    color: aliceblue;
 }
 
 h2 {
