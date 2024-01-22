@@ -18,7 +18,9 @@
     font-family: custom-font;
     src: url(/MateSC-Regular.ttf);
   }
-
+  #landing-page-blank{
+    height: 900px;
+  }
   #landing-page {
     width: 100%;
     display: flex;
@@ -225,13 +227,15 @@ nav {
 .project-element {
   border-style: solid;
   border-color: rgb(127, 136, 255);
-  width: 363px;
-  height: 161px;
+  width: fit-content;
+  padding: 4px;
+  height: 200px;
   display: flex;
+  white-space: nowrap;
   border-radius: 10px;
   background: rgba(114, 137, 218, 0.22);
   margin: 20px;
-  justify-content: center;
+justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
