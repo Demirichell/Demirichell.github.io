@@ -6,7 +6,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        backdrop-filter: blur(8px)
+
     }
 
 
@@ -76,11 +76,11 @@
     }
 
     h6 {
-        font-size: 64px;
         color: aliceblue;
         font-weight: 100;
-
-        margin: 0;
+        line-height: normal;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .code-icons {
@@ -121,10 +121,7 @@
 
     }
 
-    p2 {
-        font-size: 1vw;
-        color: aliceblue;
-    }
+
 
     a {
         text-decoration: underline;
@@ -145,7 +142,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: blur(8px)
+
 }
 
 * {
@@ -196,6 +193,8 @@ h3 {
 
 }
 
+
+
 p {
     font-size: 2vw;
     color: aliceblue;
@@ -205,6 +204,7 @@ p {
 
 p2 {
     font-size: 1vw;
+
     color: aliceblue;
 }
 
@@ -239,10 +239,15 @@ h6 {
     font-size: 5vw;
     color: aliceblue;
     font-weight: 100;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-
+.line {
+    width: 1px;
+    height: 73px;
+    color: aliceblue;
+}
 
 nav {
     background-color: #36393E;
@@ -276,7 +281,7 @@ a {
 }
 
 footer {
-    height: 70px;
+    height: 20%;
     background-color: #36393E;
 
     bottom: 0;
@@ -287,12 +292,23 @@ footer {
     display: flex;
     justify-content: left;
     width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .footer-right {
     display: flex;
     justify-content: right;
     width: 50%;
+
+}
+
+.footer-text-placement {
+    width: 100%;
+    display: flex;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .icon {
@@ -300,4 +316,10 @@ footer {
     margin-left: 10px;
     width: 32px;
     height: 37px;
+}
+
+.icon-social {
+    width: 27px;
+    width: 37px;
+    margin-right: 10px;
 }

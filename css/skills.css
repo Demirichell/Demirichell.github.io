@@ -66,16 +66,14 @@ header {
     display: flex;
     justify-content: center;
     height: 100%;
-    border-style: solid;
-    border-color: rgb(127, 255, 170);
+
     flex-wrap: wrap;
 }
 
 .card-placement {
     width: 384px;
     justify-content: center;
-    border-style: solid;
-    border-color: rgb(255, 127, 127);
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

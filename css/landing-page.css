@@ -213,6 +213,8 @@ nav {
   width: 100%;
   border-style: solid;
   border-color: rgb(127, 136, 255);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .skills-container-text-placement {
