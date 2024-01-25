@@ -3,14 +3,14 @@
         height: 100%;
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
-
+        flex-wrap: wrap;
     }
 
-    .skills-text {
-        width: fit-content;
-        margin-bottom: 40px;
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .skills-text-placement-right {
@@ -39,7 +39,13 @@
         border-radius: 10px;
         background: #D9D9D9;
         margin-bottom: 10px;
+        transition: transform .2s;
         margin-top: 60px;
+    }
+
+    .project-top:hover {
+        transform: scale(110%);
+
     }
 
     .project-bottom {
@@ -63,5 +69,25 @@
         justify-content: left;
         align-items: center;
 
+    }
+
+    .skills-placement {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-style: solid;
+        border-color: rgba(127, 255, 191, 0.67);
+    }
+
+    .card-placement {
+        width: 384px;
+        justify-content: center;
+        border-style: solid;
+        border-color: rgb(255, 127, 127);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
