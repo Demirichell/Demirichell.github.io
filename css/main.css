@@ -219,7 +219,7 @@ footer {
     display: flex;
     justify-content: left;
     flex-direction: row;
-    width: 50%;
+    width: 70%;
 
 }
 
@@ -228,7 +228,7 @@ footer {
     justify-content: left;
     text-align: left;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
 
 
 
