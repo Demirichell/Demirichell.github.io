@@ -67,7 +67,8 @@
     color: aliceblue;
     width: 100%;
     display: flex;
-    font-size: 30px;
+    font-size: 60px;
+    justify-content: center;
   }
 
   .text-purple-center {
@@ -152,6 +153,7 @@ nav {
   display: flex;
   justify-content: center;
   height: fit-content;
+  font-size: 80px;
 }
 
 .top-cards {
