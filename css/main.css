@@ -37,7 +37,7 @@
         padding-left: 40px;
     }
 
-    s h2 {
+    h2 {
 
         font-size: 32px;
 
@@ -211,6 +211,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     bottom: 0;
+    margin-top: 100px;
 
 }
 
@@ -224,7 +225,8 @@ footer {
 
 .footer-right {
     display: flex;
-
+    justify-content: left;
+    text-align: left;
     flex-direction: column;
     width: 50%;
 
@@ -238,7 +240,7 @@ footer {
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
 }
 
 .icon {
