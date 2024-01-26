@@ -19,14 +19,9 @@
     src: url(/MateSC-Regular.ttf);
   }
 
-  #landing-page-blank {
-    height: 900px;
-  }
 
-  #landing-page {
-    width: 100%;
-    display: flex;
-  }
+
+
 
   .text-placement {
     /* border-style: solid; */
@@ -37,72 +32,28 @@
     padding-left: 10px;
   }
 
-  #software-skills {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: fit-content;
-  }
 
-  .skills-responsive-placement {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    /* border-style: solid; */
-    /* border-color: rgb(255, 127, 127); */
-  }
+
+
 
   .skills-content {
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 900px;
-    /* border-style: solid; */
-    /* border-color: rgb(127, 255, 148); */
+
 
   }
 
-  .text-white-left {
-    color: aliceblue;
-    width: 100%;
-    display: flex;
-    font-size: 60px;
-    justify-content: center;
-  }
-
-  .text-purple-center {
-    width: 100%;
-    display: flex;
-    font-size: 3cqw;
-    justify-content: center;
-    color: rgb(137, 73, 255);
-  }
-
-  #aboutme {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-  }
 
   .aboutme-placement {
-    width: 100%;
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    /* border-style: solid; */
-    /* border-color: rgb(127, 255, 148); */
-    height: fit-content;
 
   }
 
   .aboutme-left-placement {
-    display: flex;
-    width: 100%;
-    border-style: solid;
     height: fit-content;
-    /* justify-content: center; */
-    /* border-color: rgb(255, 127, 127); */
+    width: 100%;
+
   }
 
   .aboutme-img {
@@ -111,63 +62,12 @@
     min-width: 200px;
     margin: 20px;
   }
-}
 
-.aboutme-right-placement {
-  display: flex;
-  width: 100%;
-  /* border-style: solid; */
-  /* border-color: rgb(255, 127, 127); */
-}
-
-.aboutme-bottom-placement {
-  width: 100%;
-  display: flex;
-  /* border-style: solid; */
-  /* border-color: rgb(255, 127, 127); */
-  flex-wrap: wrap;
-}
-
-.aboutme-p {
-  display: hidden;
-  border-color: #7289DA;
-}
-
-nav {
-  background-color: #36393E;
-  height: 40px;
-}
-
-.cards {
-  background: #36393E;
-  width: 30%;
-  height: 93px;
-  border-radius: 4px;
-  margin: 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.front-end-text-placement {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  height: fit-content;
-  font-size: 80px;
-}
-
-.top-cards {
-  width: 100%;
-  height: 70%;
-  display: flex;
-  /* border-style: solid; */
-  /* border-color: rgb(255, 127, 127); */
-}
-
-.bottom-cards {
-  width: 100%;
-  height: 20%;
-  display: flex;
-  /* border-style: solid; */
-  /* border-color: rgb(255, 127, 127); */
+  .aboutme-right-placement {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* border-style: solid; */
+    /* border-color: rgb(255, 127, 127); */
+  }
 }

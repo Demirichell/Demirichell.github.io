@@ -18,7 +18,7 @@ header {
 .project-placement {
     width: 100%;
     display: flex;
-    white-space: no wrap;
+
     justify-content: center;
     flex-wrap: wrap;
 }

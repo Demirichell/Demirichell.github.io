@@ -1,17 +1,7 @@
 @media only screen and (max-width: 600px) {
-    #skills {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 
-    header {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+
+
 
     .skills-text-placement-right {
         width: 83%;
@@ -26,68 +16,5 @@
         justify-content: left;
     }
 
-    .project-placement {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 
-    .project-top {
-        width: 306px;
-        height: 346px;
-        border-radius: 10px;
-        background: #D9D9D9;
-        margin-bottom: 10px;
-        transition: transform .2s;
-        margin-top: 60px;
-    }
-
-    .project-top:hover {
-        transform: scale(110%);
-
-    }
-
-    .project-bottom {
-        width: 306px;
-        height: 143px;
-        border-radius: 10px;
-        background: rgba(114, 137, 218, 0.22);
-        margin-bottom: 10px;
-    }
-
-    .project-bottom-top {
-        display: flex;
-        height: 50%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .project-bottom-bottom {
-        display: flex;
-        height: 50%;
-        justify-content: left;
-        align-items: center;
-
-    }
-
-    .skills-placement {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border-style: solid;
-        border-color: rgba(127, 255, 191, 0.67);
-    }
-
-    .card-placement {
-        width: 384px;
-        justify-content: center;
-        border-style: solid;
-        border-color: rgb(255, 127, 127);
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 }

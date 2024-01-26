@@ -71,21 +71,8 @@ body {
 
 }
 
-.text-white-left {
-  color: aliceblue;
-  width: 100%;
-  display: flex;
-  font-size: 3cqw;
-  margin-bottom: 50px;
-}
 
-.text-purple-center {
-  width: 100%;
-  display: flex;
-  font-size: 3cqw;
-  justify-content: center;
-  color: rgb(137, 73, 255);
-}
+
 
 #aboutme {
   display: flex;
@@ -97,9 +84,6 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  /* border-style: solid; */
-
-  /* border-color: rgb(127, 255, 148); */
   height: fit-content;
 
 }
@@ -108,10 +92,11 @@ body {
   display: flex;
   justify-content: center;
   width: 40%;
-  /* border-style: solid; */
   height: 900px;
-  /* border-color: rgb(255, 127, 127); */
 }
+
+
+
 
 .aboutme-p {
   border-style: solid;
@@ -139,6 +124,7 @@ body {
   display: flex;
   /* border-style: solid; */
   /* border-color: rgb(255, 127, 127); */
+  flex-wrap: wrap;
 }
 
 nav {
@@ -161,6 +147,7 @@ nav {
   display: flex;
   justify-content: center;
   height: fit-content;
+  font-size: 80px;
 }
 
 .top-cards {

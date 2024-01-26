@@ -25,11 +25,7 @@
 
 
 
-    h1 {
-        font-size: 64px;
-        color: aliceblue;
-        font-weight: 400;
-    }
+
 
     .text-placement {
         /* border-style: solid; */
@@ -41,98 +37,31 @@
         padding-left: 40px;
     }
 
-    h3 {
-        font-size: 2vw;
-        color: aliceblue;
-        font-weight: 400;
-        flex-grow: inherit;
+    s h2 {
 
-    }
-
-    .main-text {
-        color: #7289DA;
-
-
-
-    }
-
-    h2 {
-        color: aliceblue;
         font-size: 32px;
-        font-weight: 400;
-    }
-
-    h4 {
-        color: #7289DA;
-        font-size: 36px;
-        letter-spacing: 1px;
-
-    }
-
-    h5 {
-        font-size: 2vw;
-        color: aliceblue;
-        font-weight: 100;
-    }
-
-    h6 {
-        color: aliceblue;
-        font-weight: 100;
-        line-height: normal;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    .code-icons {
-        padding-top: 10px;
-        width: 52px;
-        height: 46px;
-    }
-
-    nav {
-        display: flex;
-        width: 100%;
-        height: 160px;
-        background-color: #36393E;
-
-    }
-
-    .nav-left {
-        display: flex;
-        width: 50%;
-        justify-content: left;
-        align-items: center;
-        padding-left: 20px;
-
-    }
-
-    .nav-right {
-        display: flex;
-        width: 50%;
-        justify-content: right;
-        justify-content: center;
-    }
-
-    p {
-        font-size: 2vw;
-        color: aliceblue;
-        flex-grow: inherit;
-
 
     }
 
 
-    a {
-        text-decoration: underline;
-        text-decoration: none;
-        color: aliceblue;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 }
-
-
 
 body {
 
@@ -151,15 +80,7 @@ body {
 
 }
 
-.text-placement {
-    /* border-style: solid; */
-    /* border-color: rgb(255, 127, 127); */
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: column;
-    padding-left: 40px;
-}
+
 
 @font-face {
     font-family: custom-font;
@@ -192,7 +113,11 @@ h3 {
 
 }
 
-
+.code-icons {
+    padding-top: 10px;
+    width: 52px;
+    height: 46px;
+}
 
 p {
     font-size: 2vw;
