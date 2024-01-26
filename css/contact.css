@@ -2,6 +2,7 @@ input[type=text],
 select,
 textarea {
     width: 80%;
+    min-width: 200px;
     padding: 12px;
     min-width: 100px;
     border: 1px solid #ccc;
@@ -37,7 +38,7 @@ input[type=submit]:hover {
     flex-direction: column;
 
     border-radius: 5px;
-    width: 50%;
+    width: 40%;
     height: fit-content;
     background: rgba(114, 137, 218, 0.22);
     margin: 20px;
@@ -58,4 +59,33 @@ form {
     flex-wrap: wrap;
     flex-direction: column;
     border: 1px solid #ccc;
+}
+
+.information {
+    width: 40%;
+    background: rgba(114, 137, 218, 0.22);
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.information-section {
+    width: 25%;
+    border-style: 1px, solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .information {
+        display: none;
+
+    }
+
+    .information-section {
+        display: none;
+    }
 }

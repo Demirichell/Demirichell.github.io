@@ -175,6 +175,7 @@ nav {
     background-color: #36393E;
     height: 70px;
     display: flex;
+
 }
 
 .nav-left {
@@ -205,7 +206,10 @@ a {
 footer {
     height: 20%;
     background-color: #36393E;
-
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    flex-wrap: wrap;
     bottom: 0;
 
 }
@@ -213,24 +217,28 @@ footer {
 .footer-left {
     display: flex;
     justify-content: left;
+    flex-direction: row;
     width: 50%;
-    flex-wrap: wrap;
-    flex-direction: column;
+
 }
 
 .footer-right {
     display: flex;
-    justify-content: right;
+
+    flex-direction: column;
     width: 50%;
+
+
 
 }
 
 .footer-text-placement {
-    width: 100%;
+    margin-left: 15px;
     display: flex;
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: right;
 }
 
 .icon {
@@ -243,5 +251,5 @@ footer {
 .icon-social {
     width: 27px;
     width: 37px;
-    margin-right: 10px;
+    margin-left: 15px;
 }

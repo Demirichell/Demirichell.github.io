@@ -101,7 +101,9 @@ body {
 .aboutme-p {
   border-style: solid;
   border-color: #7289DA;
-  width: 50%;
+  width: 60%;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .aboutme-img {
@@ -142,12 +144,22 @@ nav {
   flex-wrap: wrap;
 }
 
-.front-end-text-placement {
+.subtitle {
   width: 100%;
   display: flex;
   justify-content: center;
   height: fit-content;
   font-size: 80px;
+  color: #7289DA;
+}
+
+.subsubtitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  font-size: 50px;
+
 }
 
 .top-cards {
